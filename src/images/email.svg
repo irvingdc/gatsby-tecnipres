@@ -1,0 +1,15 @@
+
+<svg width="32px" height="26px" viewBox="0 0 32 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Contact" transform="translate(-203.000000, -469.000000)" stroke="#0088B7" stroke-width="2.8">
+            <g id="Form" transform="translate(173.000000, 306.000000)">
+                <g id="Maail" transform="translate(0.000000, 128.000000)">
+                    <g id="mail" transform="translate(32.000000, 37.000000)">
+                        <path d="M2.8,0 L25.2,0 C26.74,0 28,1.2375 28,2.75 L28,19.25 C28,20.7625 26.74,22 25.2,22 L2.8,22 C1.26,22 0,20.7625 0,19.25 L0,2.75 C0,1.2375 1.26,0 2.8,0 Z" id="Shape"></path>
+                        <polyline id="Shape" points="28 2.75 14 12.375 0 2.75"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

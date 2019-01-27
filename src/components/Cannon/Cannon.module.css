@@ -1,0 +1,33 @@
+.container{
+    display: inline-block;
+}
+.container:hover .img{
+    animation: pulse 2s infinite;
+}
+.img{
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 50%;
+    background-color: whitesmoke !important;
+    animation: none;
+}
+.container p img{
+    display: inline-block;
+    height: 14px;
+    margin-right: 10px;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 #0088B766;
+    }
+    70% {
+        box-shadow: 0 0 0 10px #0088B700;
+    }
+    100% {
+        box-shadow: 0 0 0 0 #0088B700;
+    }
+}

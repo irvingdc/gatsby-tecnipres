@@ -1,0 +1,21 @@
+.container{
+    height: calc(100vh - 60px);
+    background: url(../../images/home.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+.container > div{
+    background: #ffffff88;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.container > h1{
+    position: absolute;
+    top: 35%;
+    font-size: 64px;
+    left: 100px;
+    color: var(--dark-blue);
+    font-weight: bolder;
+
+}

@@ -1,0 +1,30 @@
+.toast{
+	z-index: 99999;
+	position: fixed;
+	color: white;
+	padding: 20px;
+	background: black;
+	border-radius: 4px;
+	left: 10px;
+	bottom: -100px;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.4s;
+}
+
+.toast.visible{
+	visibility: visible;
+	opacity: 1;
+	bottom: 10px;
+}
+
+@media (max-width: 770px){
+	.toast{
+		left: 0px;
+		width: calc(100% - 40px);
+		border-radius: 0px;
+	}
+	.toast.visible{
+		bottom: 0px;
+	}
+}

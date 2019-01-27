@@ -1,0 +1,75 @@
+:root{
+    --dark-blue: #26475F;
+    --light-blue: #0088B7;
+    --base-gray: #1c1c1c;
+    --highlighted: #555555;
+    --details: #8D8D8D;
+    --blue-on-blue: #00BEFF;
+}
+
+html, body {
+    background: white;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-display: auto;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+    src: url(./fonts/OpenSans-Light.woff) format('woff')
+}
+
+@font-face {
+    font-display: auto;
+    font-family: 'Open Sans';
+    font-weight: normal;
+    src: url(./fonts/OpenSans-Regular.woff) format('woff')
+}
+
+@font-face {
+    font-display: auto;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    src: url(./fonts/OpenSans-Bold.woff) format('woff')
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans'
+}
+
+input, textarea {   
+    height: 48px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    font-size: 17px;
+    padding: 0 10px;
+    outline: 0;
+    resize: none;
+    color: #555;
+}
+
+select {
+    height: 50px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    background: white;
+    font-size: 17px;
+    outline: none;
+    font-weight: 200;
+    padding: 0px 8px;
+}
+
+textarea{
+    height: 152px;
+}
+
+p{
+    color: black;
+    margin: 0px;
+}
+p b {
+    color: var(--light-blue);
+    font-weight: normal;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "gatsby-tecnipres",
+  "description": "Website for Tecnipres built with gatsby",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "build": "rm -rf public && gatsby build",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "gatsby": "^2.0.33",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-helmet": "^5.2.0",
+    "react-responsive-carousel": "^3.1.46"
+  }
+}

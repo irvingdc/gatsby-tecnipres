@@ -1,0 +1,29 @@
+.flex{
+    display: flex;
+    position: relative;
+    height: 100vh;
+    max-height: 400px;
+    max-width: 600px;
+}
+.flex > div{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.flex h3{
+    font-size: 40px;
+    text-align: center;
+}
+.flex p{
+    color: var(--highlighted);
+    padding: 0px 40px;
+}
+.flex button{
+    cursor: pointer;
+    background: none;
+    border: none;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    font-size: 17px;
+}

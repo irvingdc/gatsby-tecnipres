@@ -1,0 +1,32 @@
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 80px;
+}
+.row{
+    display: block;
+    text-align: center;
+}
+.row img{
+    display: inline-block;
+    margin: 15px;
+    height: 55px;
+}
+.container p {
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    width: 600px;
+}
+.container p img{
+    display: inline-block;
+    height: 14px;
+    margin-right: 10px;
+}
+.distributorsText{
+    justify-content: flex-end;
+}
+.brandsText{
+    justify-content: flex-start;
+}

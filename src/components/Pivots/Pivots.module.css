@@ -1,0 +1,12 @@
+.container{
+    display: block;
+    max-width: 1200px;
+    margin: auto;
+}
+.list{
+    text-align: center;
+}
+.subtitle{
+    max-width: 1000px;
+    margin: auto;
+}

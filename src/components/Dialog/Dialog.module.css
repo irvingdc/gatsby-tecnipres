@@ -1,0 +1,36 @@
+.container{
+    opacity: 0;
+    visibility: hidden;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    top: 0;
+    transition: all 0.2s;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.displayed{
+    opacity: 1;
+    visibility: visible;
+}
+.background{
+    background: #000000bb;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    z-index: 1400;
+}
+.content{
+    width: fit-content;
+    z-index: 2000;
+    background: white;
+    
+}
