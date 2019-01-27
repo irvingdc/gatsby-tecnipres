@@ -27,3 +27,16 @@
     right: 16px;
     font-size: 17px;
 }
+
+@media (max-width: 767px){
+    .flex{
+        height: 310px;
+    }
+    .flex h3{
+        font-size: 34px;
+    }
+    .flex p{
+        padding: 0px 10px;
+        font-size: 14px;
+    }
+}

@@ -8,5 +8,7 @@
 }
 
 @media (max-width: 767px){
-
+    .title{
+        font-size: 26px;
+    }
 }

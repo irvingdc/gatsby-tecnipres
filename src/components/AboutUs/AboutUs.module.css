@@ -52,3 +52,26 @@
     font-size: 22px;
     padding: 30px 10px 10px;
 }
+@media (max-width: 767px){
+    .flex{
+        flex-direction: column-reverse;
+        padding: 0px 20px;
+    }
+    .right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        top: -20px;
+    }
+    .introduction{
+        font-size: 18px;
+    }
+    .details{
+        font-size: 15px;
+    }
+    .bottomText{
+        font-size: 20px;
+    }
+}

@@ -31,3 +31,18 @@
         box-shadow: 0 0 0 0 #0088B700;
     }
 }
+
+@media (max-width: 767px){
+    .img{
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        margin: 14px;
+    }
+    .container p{
+        font-size: 15px;
+    }
+    .container p img{
+        height: 12px;
+    }
+}

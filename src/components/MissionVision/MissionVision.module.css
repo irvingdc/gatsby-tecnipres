@@ -52,3 +52,25 @@
     right: 0px;
     transform: rotate(180deg)
 }
+
+@media (max-width: 767px){
+    .container{
+        display: block;
+        padding: 0px 20px 20px;
+    }
+    .centerLine{
+        width: 200px;
+        height: unset;
+        border-right: 0px;
+        border-bottom: 1px solid var(--details);
+        margin: 30px 0px;
+        left: calc(50% - 100px);
+    }
+    .centerLine::after{
+        left: 90px;
+        top: -10px;
+    }
+    .vision img{
+        bottom: -40px;
+    }
+}

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import { logo } from '../../images'
+import { logo, arrows_right, close_white, menu } from '../../images'
 import classes from './Nav.module.css'
+import { throws } from 'assert';
 
 class Nav extends Component {
 
@@ -23,30 +24,72 @@ class Nav extends Component {
         }
     }
 
+    openMenu = () => {
+        this.setState({
+            open: true
+        })
+    }
+    
+    closeMenu = () => {
+        this.setState({
+            open: false
+        })
+    }
+
     render(){
 
+        let options = [
+            {
+                href: "#acerca-de",
+                title: "Acerca de nosotros",
+            },
+            {
+                href: "#socios",
+                title: "Socios",
+            },
+            {
+                href: "#productos",
+                title: "Productos",
+            },
+            {
+                href: "#galeria",
+                title: "Galería",
+            },
+            {
+                href: "#contacto",
+                title: "Contacto",
+            },
+        ]
+
         return(
-            <nav className={ classes.nav }>
+            <nav className={ [classes.nav, (this.state.open ? classes.open : "")].join(' ') }>
                 <a href="#inicio" className="navigation">
                     <img src={ logo } alt="logo" className={ classes.logo }/>
                 </a>
-                <ul className={ classes.list }>
-                    <li>
-                        <a href="#acerca-de" className="navigation">Acerca de nosotros</a>
-                    </li>
-                    <li>
-                        <a href="#socios" className="navigation">Socios</a>
-                    </li>
-                    <li>
-                        <a href="#productos" className="navigation">Productos</a>
-                    </li>
-                    <li>
-                        <a href="#galeria" className="navigation">Galería</a>
-                    </li>
-                    <li>
-                        <a href="#contacto" className="navigation">Contacto</a>
-                    </li>
-                </ul>
+                <img 
+                    src={ menu } 
+                    alt="Abrir Menu" 
+                    className={ classes.menu }
+                    onClick={ this.openMenu }
+                />
+                <img 
+                    src={ close_white } 
+                    alt="Cerrar Menu" 
+                    className={ classes.close }
+                    onClick={ this.closeMenu }
+                />
+                <div className={ classes.content }>
+                    <ul className={ classes.list }>
+                        {
+                            options.map((it, index) => (
+                                <li key={ index }>
+                                    <img src={ arrows_right } alt="Arrows Right"/>
+                                    <a href={ it.href } className="navigation">{ it.title }</a>
+                                </li>
+                            ))
+                        }
+                    </ul>
+                </div>
             </nav>
         )
     }

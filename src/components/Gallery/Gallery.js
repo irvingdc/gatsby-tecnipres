@@ -10,10 +10,10 @@ let gallery = () => {
     let images = [ gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7, gallery8, gallery9, gallery10, gallery11, gallery12 ]
 
     return (
-        <div id="gallery" className={ classes.container }>
+        <div id="galeria" className={ classes.container }>
             <Title>Galería</Title>
             <div className={ classes.gallery }>
-                <Carousel showArrows={false} swipeable swipeable showStatus>
+                <Carousel showArrows swipeable swipeable showStatus={false}>
                     {
                         images.map((it, index) => (
                             <div key={ index }>

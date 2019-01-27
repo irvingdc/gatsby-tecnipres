@@ -17,5 +17,11 @@
     left: 100px;
     color: var(--dark-blue);
     font-weight: bolder;
+}
 
+@media (max-width: 767px){
+    .container > h1{
+        font-size: 50px;
+        left: 20px;
+    }
 }

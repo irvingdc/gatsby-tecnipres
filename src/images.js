@@ -51,6 +51,8 @@ import gallery9 from './images/gallery/gallery9.jpg'
 import gallery10 from './images/gallery/gallery10.jpg'
 import gallery11 from './images/gallery/gallery11.jpg'
 import gallery12 from './images/gallery/gallery12.jpg'
+import close_white from './images/close-white.png'
+import menu from './images/menu.svg'
 
 export {
     logo,
@@ -106,4 +108,6 @@ export {
     gallery10,
     gallery11,
     gallery12,
+    menu,
+    close_white,
 }

@@ -9,7 +9,7 @@
     color: var(--dark-blue);
     display: flex;
     justify-content: space-between;
-    width: 110px;
+    width: 100px;
     align-items: center;
 }
 .container h3 img{
