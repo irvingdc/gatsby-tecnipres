@@ -13,7 +13,7 @@ let gallery = () => {
         <div id="galeria" className={ classes.container }>
             <Title>Galería</Title>
             <div className={ classes.gallery }>
-                <Carousel showArrows swipeable swipeable showStatus={false}>
+                <Carousel showArrows swipeable={ false } showStatus={false}>
                     {
                         images.map((it, index) => (
                             <div key={ index }>

@@ -1,0 +1,19 @@
+.container{
+    display: block;
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 20px 0px;
+}
+.list{
+    text-align: center;
+    padding-top: 100px;
+}
+.subtitle{
+    max-width: 1000px;
+    margin: auto;
+}
+@media (max-width: 767px){
+    .list{
+        padding-top: 0px;
+    }
+}

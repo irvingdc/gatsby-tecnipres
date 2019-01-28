@@ -59,3 +59,8 @@
     visibility: visible;
     transition: all 0.2s 0.2s;
 }
+@media (max-width:518px){
+    .container{
+        width: calc(100% - 20px);
+    }
+}

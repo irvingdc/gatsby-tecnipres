@@ -1,11 +1,11 @@
 import React from 'react';
 import classes from './Partners.module.css'
 import Title from '../Title/Title'
-import { brand2, brand3, brand4, brand5, brand6, brand7, brand8, arrows_right } from '../../images'
+import { brand2, brand3, brand4, brand5, brand6, brand7, arrows_right, partner1, partner2, partner3 } from '../../images'
 
 let partners = () => {
 
-    let distributors = [ brand8, brand8, brand8 ]
+    let distributors = [ partner1, partner2, partner3 ]
     let brands = [ brand5, brand2, brand4, brand6, brand3, brand7 ]
 
     return (

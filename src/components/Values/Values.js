@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './Values.module.css'
 import Subtitle from '../Subtitle/Subtitle'
-import { calidad } from '../../images'
+import { calidad, perseverancia, innovacion, sinergia, compromiso } from '../../images'
 
 let values = () => {
     
@@ -11,16 +11,16 @@ let values = () => {
             icon: calidad
         },{
             title: "sinergia",
-            icon: calidad
+            icon: sinergia
         },{
             title: "compromiso",
-            icon: calidad
+            icon: compromiso
         },{
             title: "perseverancia",
-            icon: calidad
+            icon: perseverancia
         },{
             title: "innovación",
-            icon: calidad
+            icon: innovacion
         },
     ]
 

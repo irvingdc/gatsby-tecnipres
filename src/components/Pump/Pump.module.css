@@ -1,5 +1,9 @@
 .container{
-    display: inline-block;
+    display: inline-flex;
+    width: 187px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
 }
 .container:hover .img{
     animation: pulse 2s infinite;
@@ -14,14 +18,23 @@
     background-color: whitesmoke !important;
     animation: none;
 }
-.container p img{
+.title img{
     display: inline-block;
     height: 14px;
     margin-right: 10px;
 }
-.container:hover p{
+.container:hover .title{
     color: var(--dark-blue);
     font-weight: bold;
+}
+.branch{
+    font-size: 15px;
+    color: var(--highlihted);
+}
+.usage{
+    font-size: 12px;
+    font-style: italic;
+    color: var(--details);
 }
 
 @media (max-width: 767px){
@@ -31,10 +44,10 @@
         height: 100px;
         margin: 14px;
     }
-    .container p{
+    .title{
         font-size: 15px;
     }
-    .container p img{
+    .title img{
         height: 12px;
     }
 }

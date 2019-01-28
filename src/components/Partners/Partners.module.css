@@ -11,6 +11,7 @@
     display: inline-block;
     margin: 15px;
     height: 55px;
+    max-width: 300px;
 }
 .container p {
     font-size: 22px;
