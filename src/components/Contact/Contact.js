@@ -30,9 +30,9 @@ class Contact extends Component {
         let { name, email, phone, message } = this.state
         if(name !== "" && email !== "" && phone !== "" && message !== ""){
 
-            this.handleSuccess() // NOTE: just for decorative purposes, remove after really connecting to endpoint
+            //this.handleSuccess() // NOTE: just for decorative purposes, remove after really connecting to endpoint
 
-            let url = "/" // what's the url??
+            let url = "/contacto.php" 
             Axios.post(url, { name, email, phone, message }).then(response => {
                 if(response.data === "success"){
                     this.handleSuccess()
