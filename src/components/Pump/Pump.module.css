@@ -30,11 +30,19 @@
 .branch{
     font-size: 15px;
     color: var(--highlihted);
+    opacity: 0;
+    visibility: hidden;
 }
 .usage{
     font-size: 12px;
     font-style: italic;
     color: var(--details);
+    opacity: 0;
+    visibility: hidden;
+}
+.container:hover .branch, .container:hover .usage{
+    visibility: visible;
+    opacity: 1;
 }
 
 @media (max-width: 767px){

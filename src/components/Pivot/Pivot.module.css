@@ -1,5 +1,5 @@
 .container{
-    width: 240px;
+    width: 280px;
     height: 300px;
     display: inline-block;
     transform: scale(1);
@@ -37,8 +37,8 @@
 .container p{
     opacity: 0;
     visibility: hidden;
-    font-size: 10px;
-    line-height: 14px;
+    font-size: 12px;
+    line-height: 15px;
     text-align: justify;
     transition: all 0.2s 0s;
     padding: 70px 10px 10px;
@@ -59,7 +59,7 @@
     visibility: visible;
     transition: all 0.2s 0.2s;
 }
-@media (max-width:518px){
+@media (max-width:600px){
     .container{
         width: calc(100% - 20px);
     }

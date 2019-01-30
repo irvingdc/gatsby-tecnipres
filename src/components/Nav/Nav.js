@@ -14,13 +14,19 @@ class Nav extends Component {
             it.addEventListener("click", (event)=>{
                 event.preventDefault()
                 this.scrollToTarget(document.querySelector(it.getAttribute("href")))
+                this.setState({
+                    open: false,
+                })
             }, false)
         })
     }
 
     scrollToTarget = target => {
         if(target){
-            window.scroll(0, target.offsetTop - 60)
+            window.scroll({
+                top: target.offsetTop - 60,
+                behavior: 'smooth',
+            })
         }
     }
 

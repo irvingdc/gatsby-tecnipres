@@ -15,9 +15,9 @@ let index = () => {
     return (
         <Fragment>
             <MetaTags
-                description=""
-                title=""
-                canonical=""
+                description="Tecnología de Riego Presurizado S.A. de C.V."
+                title="Tecnipres"
+                canonical="https://www.tecnipres.com/"
             />
             <Nav/>
             <CelebrationDialog/>

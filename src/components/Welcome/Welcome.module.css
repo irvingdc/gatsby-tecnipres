@@ -18,10 +18,22 @@
     color: var(--dark-blue);
     font-weight: bolder;
 }
+.container > h2{
+    position: absolute;
+    top: calc(35% + 105px);
+    font-size: 24px;
+    left: 103px;
+    color: #1c1c1c;
+}
 
 @media (max-width: 767px){
     .container > h1{
         font-size: 50px;
         left: 20px;
+    }
+    .container > h2{
+        font-size: 20px;
+        left: 23px;
+        top: calc(35% + 85px);
     }
 }

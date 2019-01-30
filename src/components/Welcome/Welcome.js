@@ -6,6 +6,7 @@ let welcome = () =>{
         <div className={ classes.container } id="inicio">
            <div></div>
            <h1>Tecnipres</h1>
+           <h2>Tecnología de Riego Presurizado S.A. de C.V.</h2>
         </div>
     )
 }

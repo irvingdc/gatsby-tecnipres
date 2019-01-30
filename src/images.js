@@ -44,6 +44,12 @@ import sugargator from './images/products/sugargator.png'
 import alumigator from './images/products/alumigator.jpg'
 import minigator from './images/products/minigator.png'
 import miniPivote from './images/products/miniPivote.png'
+import kwik_tow from './images/products/kwik_tow.jpg'
+import arrastre_manguera_dos_ruedas from './images/products/arrastre_manguera_dos_ruedas.jpg'
+import avance_frontal from './images/products/avance_frontal.jpg'
+import movimiento_lateral_pivotable from './images/products/movimiento_lateral_pivotable.jpg'
+import cuatroruedas from './images/products/cuatroruedaas.png'
+import arrastre_maanguera_cuatro_ruedas from './images/products/arrastre_maanguera_cuatro_ruedas.jpg'
 import celebration from './images/celebration.jpeg'
 import name from './images/name.svg'
 import email from './images/email.svg'
@@ -63,6 +69,9 @@ import gallery9 from './images/gallery/gallery9.jpg'
 import gallery10 from './images/gallery/gallery10.jpg'
 import gallery11 from './images/gallery/gallery11.jpg'
 import gallery12 from './images/gallery/gallery12.jpg'
+import gallery13 from './images/gallery/gallery13.jpg'
+import gallery14 from './images/gallery/gallery14.jpg'
+import gallery15 from './images/gallery/gallery15.jpg'
 import close_white from './images/close-white.png'
 import menu from './images/menu.svg'
 import pumps_agriculture from './images/pumps/pumps_agriculture.png'
@@ -90,6 +99,7 @@ import pump_sumergible_2 from './images/pumps/sumergibles/sumergible_2.png'
 import pump_pelton from './images/pumps/turbinas/pelton.png'
 import pump_reaccion from './images/pumps/turbinas/reaccion.png'
 import pump_turbina_hidraulica from './images/pumps/turbinas/turbina_hidraulica.png'
+import favicon from './images/favicon.png'
 
 export {
     logo,
@@ -145,6 +155,9 @@ export {
     gallery10,
     gallery11,
     gallery12,
+    gallery13,
+    gallery14,
+    gallery15,
     menu,
     close_white,
     pumps_agriculture,
@@ -184,4 +197,11 @@ export {
     alumigator,
     minigator,
     miniPivote,
+    kwik_tow,
+    arrastre_manguera_dos_ruedas,
+    avance_frontal,
+    movimiento_lateral_pivotable,
+    cuatroruedas,
+    arrastre_maanguera_cuatro_ruedas,
+    favicon,
 }
