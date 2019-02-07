@@ -27,7 +27,7 @@ let cannons = () => {
     return (
         <div className={ classes.container }>
             <div className={ classes.subtitle }>
-                <Subtitle align="right">Cañones</Subtitle>
+                <Subtitle>Cañones</Subtitle>
             </div>
             <div className={ classes.list }>
                 {

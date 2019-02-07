@@ -1,0 +1,48 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 1000px;
+    margin: auto;
+}
+.container span{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+}
+.container span:nth-child(odd){
+    background: var(--dark-blue);
+    color: white;
+}
+
+@media (max-width: 1100px){
+    .container{
+        grid-template-columns: repeat(3, 1fr);
+        width: 600px;
+    }
+    .container span:last-child{
+        background: var(--dark-blue);
+        color: white;
+        left: 200px;
+    }
+}
+
+@media (max-width: 620px){
+    .container{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    .container span{
+        height: 100px;
+        font-size: 14px;
+    }
+    .container span:last-child{
+        background: initial;
+        color: initial;
+        left: 0px;
+    }
+}

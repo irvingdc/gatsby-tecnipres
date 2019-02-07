@@ -1,0 +1,14 @@
+.container{
+    padding-top: 50px;
+    display: block;
+    max-width: 1200px;
+    margin: auto;
+}
+.list{
+    text-align: center;
+    display: table-row;
+}
+.subtitle{
+    max-width: 1000px;
+    margin: auto;
+}

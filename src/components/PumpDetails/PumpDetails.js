@@ -5,7 +5,7 @@ let pumpDetails = ({ title, align, img, children }) => (
     <div className={ [classes.container, (align === "left" ? classes.alignLeft : classes.alignRight)].join(' ') }>
         <div>
             <h3>{ title }</h3>
-            <p>{ children }</p>p
+            <p>{ children }</p>
         </div>
         <img src={ img } alt="Bomba"/>
     </div>

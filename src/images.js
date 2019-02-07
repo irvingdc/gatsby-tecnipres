@@ -21,6 +21,9 @@ import brand7 from './images/brands/brand7.png'
 import brand8 from './images/brands/brand8.png'
 import brand9 from './images/brands/brand9.png'
 import brand10 from './images/brands/brand10.png'
+import brand11 from './images/brands/brand11.png'
+import brand12 from './images/brands/brand12.png'
+import brand13 from './images/brands/brand13.png'
 import cannon1 from './images/cannons/series_400.png'
 import cannon2 from './images/cannons/series_500.png'
 import cannon3 from './images/cannons/series_650.png'
@@ -38,6 +41,40 @@ import cannon14 from './images/cannons/series_2900.png'
 import cannon15 from './images/cannons/series_3000.png'
 import cannon16 from './images/cannons/series_3200.png'
 import cannon17 from './images/cannons/series_3500.png'
+
+import guideOption1 from './images/guideOptions/control_de_sistema_rpm.png'
+import guideOption2 from './images/guideOptions/dispositivo_de_gestion_remota.png'
+import guideOption3 from './images/guideOptions/navigator.png'
+import guideOption4 from './images/guideOptions/opciones_de_vri_de_movimiento_lateral.png'
+import guideOption5 from './images/guideOptions/reincloud.png'
+import guideOption6 from './images/guideOptions/rpm_avanzada.png'
+import guideOption7 from './images/guideOptions/rpm_basico.png'
+import guideOption8 from './images/guideOptions/rpm_estandard.png'
+import guideOption9 from './images/guideOptions/tasa_variable.png'
+
+import systemOption1 from './images/systemOptions/cable.jpg'
+import systemOption2 from './images/systemOptions/cerca.jpg'
+import systemOption3 from './images/systemOptions/surco.jpg'
+import systemOption4 from './images/systemOptions/navigator_gps.png'
+
+import piece1 from './images/pieces/aspersores.png'
+import piece2 from './images/pieces/bomba_de_sobrecarga.png'
+import piece3 from './images/pieces/caja_de_cambio_de_ruedas.png'
+import piece4 from './images/pieces/caja_de_cambios_remolcable.png'
+import piece5 from './images/pieces/caja_de_torre.png'
+import piece6 from './images/pieces/carrete_de_colector.png'
+import piece7A from './images/pieces/contactores_1.png'
+import piece7B from './images/pieces/contactores_2.png'
+import piece8 from './images/pieces/lubricante_de_riego.png'
+import piece9 from './images/pieces/neumaticos.png'
+import piece10 from './images/pieces/paneles_de_control_principal.png'
+import piece11A from './images/pieces/pistola_final_1.png'
+import piece11B from './images/pieces/pistola_final_2.png'
+import piece11C from './images/pieces/pistola_final_3.png'
+import piece11D from './images/pieces/pistola_final_4.png'
+import piece12 from './images/pieces/sello_v_ring.png'
+import piece13 from './images/pieces/unidad_central.png'
+
 import remolqueInverso from './images/products/remolqueInverso.png'
 import electrogator from './images/products/electrogator.jpg'
 import sugargator from './images/products/sugargator.png'
@@ -69,9 +106,21 @@ import gallery9 from './images/gallery/gallery9.jpg'
 import gallery10 from './images/gallery/gallery10.jpg'
 import gallery11 from './images/gallery/gallery11.jpg'
 import gallery12 from './images/gallery/gallery12.jpg'
-import gallery13 from './images/gallery/gallery13.jpg'
-import gallery14 from './images/gallery/gallery14.jpg'
-import gallery15 from './images/gallery/gallery15.jpg'
+import gallery19 from './images/gallery/gallery19.jpg'
+import gallery20 from './images/gallery/gallery20.jpg'
+import gallery21 from './images/gallery/gallery21.jpg'
+import gallery22 from './images/gallery/gallery22.jpg'
+import gallery23 from './images/gallery/gallery23.jpg'
+import gallery24 from './images/gallery/gallery24.jpg'
+import gallery25 from './images/gallery/gallery25.jpg'
+import gallery26 from './images/gallery/gallery26.jpg'
+import gallery27 from './images/gallery/gallery27.jpg'
+import gallery28 from './images/gallery/gallery28.jpg'
+import gallery29 from './images/gallery/gallery29.jpg'
+import gallery30 from './images/gallery/gallery30.jpg'
+import gallery31 from './images/gallery/gallery31.jpg'
+import gallery32 from './images/gallery/gallery32.jpg'
+import gallery33 from './images/gallery/gallery33.jpg'
 import close_white from './images/close-white.png'
 import menu from './images/menu.svg'
 import pumps_agriculture from './images/pumps/pumps_agriculture.png'
@@ -99,6 +148,7 @@ import pump_sumergible_2 from './images/pumps/sumergibles/sumergible_2.png'
 import pump_pelton from './images/pumps/turbinas/pelton.png'
 import pump_reaccion from './images/pumps/turbinas/reaccion.png'
 import pump_turbina_hidraulica from './images/pumps/turbinas/turbina_hidraulica.png'
+import expand from './images/expand.svg'
 import favicon from './images/favicon.png'
 
 export {
@@ -118,6 +168,9 @@ export {
     brand8,    
     brand9, 
     brand10,
+    brand11,
+    brand12,
+    brand13,
     cannon1,
     cannon2,
     cannon3,
@@ -135,6 +188,36 @@ export {
     cannon15,
     cannon16,
     cannon17,
+    guideOption1,
+    guideOption2,
+    guideOption3,
+    guideOption4,
+    guideOption5,
+    guideOption6,
+    guideOption7,
+    guideOption8,
+    guideOption9,
+    systemOption1,
+    systemOption2,
+    systemOption3,
+    systemOption4,
+    piece1,
+    piece2,
+    piece3,
+    piece4,
+    piece5,
+    piece6,
+    piece7A,
+    piece7B,
+    piece8,
+    piece9,
+    piece10,
+    piece11A,
+    piece11B,
+    piece11C,
+    piece11D,
+    piece12,
+    piece13,
     remolqueInverso,
     celebration,
     name,
@@ -155,9 +238,21 @@ export {
     gallery10,
     gallery11,
     gallery12,
-    gallery13,
-    gallery14,
-    gallery15,
+    gallery19,
+    gallery20,
+    gallery21,
+    gallery22,
+    gallery23,
+    gallery24,
+    gallery25,
+    gallery26,
+    gallery27,
+    gallery28,
+    gallery29,
+    gallery30,
+    gallery31,
+    gallery32,
+    gallery33,
     menu,
     close_white,
     pumps_agriculture,
@@ -203,5 +298,6 @@ export {
     movimiento_lateral_pivotable,
     cuatroruedas,
     arrastre_maanguera_cuatro_ruedas,
+    expand,
     favicon,
 }

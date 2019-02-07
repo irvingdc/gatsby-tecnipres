@@ -8,6 +8,8 @@ import Partners from '../components/Partners/Partners'
 import Products from '../components/Products/Products'
 import Contact from '../components/Contact/Contact'
 import Gallery from '../components/Gallery/Gallery'
+import Services from '../components/Services/Services'
+import CivilWork from '../components/CivilWork/CivilWork'
 import CelebrationDialog from '../components/CelebrationDialog/CelebrationDialog'
 import '../styles.css'
 
@@ -25,7 +27,9 @@ let index = () => {
                 <Welcome/>
                 <AboutUs/>
                 <Partners/>
+                <Services/>
                 <Products/>
+                <CivilWork/>
                 <Gallery/>
                 <Contact/>
             </div>

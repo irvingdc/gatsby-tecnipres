@@ -1,0 +1,14 @@
+.container{
+    padding-top: 50px;
+    display: block;
+    max-width: 1000px;
+    margin: auto;
+}
+.subtitle{
+    max-width: 1000px;
+    margin: auto;
+}
+.container h4{
+    color: var(--dark-blue);
+    border-bottom: 2px solid var(--dark-blue);
+}
