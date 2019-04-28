@@ -10,7 +10,7 @@ let pivots = () => {
         {
             title: "Sugargator",
             subtitle: "La mejor opción para irrigar cultivos altos",
-            information: "Uno de los protagonistas con cada vez más popularidad es nuestro modelo de alto perfil en donde el despeje de cultivo crece en 4ft (1.20m) y con esto suple el creciente mercado de caña de azúcar y maíces. Su diseño tiene una gran aceptación por el ancho estable de su base y su capacidad de “flotar” en suelos pesados, comunes en campos azucareros.",
+            information: "Uno de los protagonistas con cada vez más popularidad es nuestro modelo de alto perfil en donde el despeje de cultivo crece en 4m y con esto suple el creciente mercado de caña de azúcar y maíces. Su diseño tiene una gran aceptación por el ancho estable de su base y su capacidad de “flotar” en suelos pesados, comunes en campos azucareros.",
             img: sugargator,
         },
         {

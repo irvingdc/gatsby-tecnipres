@@ -1,5 +1,4 @@
 .container{
-    padding-top: 50px;
     display: block;
     max-width: 1000px;
     margin: auto;
@@ -10,5 +9,16 @@
 }
 .container h4{
     color: var(--dark-blue);
-    border-bottom: 2px solid var(--dark-blue);
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 0 8px;
+}
+.details{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.details > div{
+    margin: 0 4px;
+    padding: 0 8px;
 }

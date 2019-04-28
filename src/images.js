@@ -24,6 +24,9 @@ import brand10 from './images/brands/brand10.png'
 import brand11 from './images/brands/brand11.png'
 import brand12 from './images/brands/brand12.png'
 import brand13 from './images/brands/brand13.png'
+import brand14 from './images/brands/brand14.png'
+import brand15 from './images/brands/brand15.png'
+
 import cannon1 from './images/cannons/series_400.png'
 import cannon2 from './images/cannons/series_500.png'
 import cannon3 from './images/cannons/series_650.png'
@@ -95,7 +98,6 @@ import message from './images/message.svg'
 import pin from './images/pin.svg'
 import send from './images/send.svg'
 import gallery1 from './images/gallery/gallery1.jpg'
-import gallery2 from './images/gallery/gallery2.jpg'
 import gallery3 from './images/gallery/gallery3.jpg'
 import gallery4 from './images/gallery/gallery4.jpg'
 import gallery5 from './images/gallery/gallery5.jpg'
@@ -106,21 +108,43 @@ import gallery9 from './images/gallery/gallery9.jpg'
 import gallery10 from './images/gallery/gallery10.jpg'
 import gallery11 from './images/gallery/gallery11.jpg'
 import gallery12 from './images/gallery/gallery12.jpg'
+import gallery13 from './images/gallery/gallery13.png'
+import gallery14 from './images/gallery/gallery14.png'
+import gallery15 from './images/gallery/gallery15.png'
+import gallery16 from './images/gallery/gallery16.jpg'
+import gallery17 from './images/gallery/gallery17.jpg'
+import gallery18 from './images/gallery/gallery18.jpg'
 import gallery19 from './images/gallery/gallery19.jpg'
-import gallery20 from './images/gallery/gallery20.jpg'
-import gallery21 from './images/gallery/gallery21.jpg'
+import gallery20 from './images/gallery/gallery20.png'
+import gallery21 from './images/gallery/gallery21.png'
 import gallery22 from './images/gallery/gallery22.jpg'
 import gallery23 from './images/gallery/gallery23.jpg'
 import gallery24 from './images/gallery/gallery24.jpg'
-import gallery25 from './images/gallery/gallery25.jpg'
-import gallery26 from './images/gallery/gallery26.jpg'
-import gallery27 from './images/gallery/gallery27.jpg'
-import gallery28 from './images/gallery/gallery28.jpg'
-import gallery29 from './images/gallery/gallery29.jpg'
-import gallery30 from './images/gallery/gallery30.jpg'
+import gallery25 from './images/gallery/gallery25.png'
+import gallery26 from './images/gallery/gallery26.png'
+import gallery27 from './images/gallery/gallery27.png'
+import gallery28 from './images/gallery/gallery28.png'
+import gallery29 from './images/gallery/gallery29.png'
+import gallery30 from './images/gallery/gallery30.png'
 import gallery31 from './images/gallery/gallery31.jpg'
 import gallery32 from './images/gallery/gallery32.jpg'
-import gallery33 from './images/gallery/gallery33.jpg'
+import gallery33 from './images/gallery/gallery33.png'
+import gallery34 from './images/gallery/gallery34.png'
+import gallery35 from './images/gallery/gallery35.jpg'
+import gallery36 from './images/gallery/gallery36.jpg'
+import gallery37 from './images/gallery/gallery37.png'
+import gallery38 from './images/gallery/gallery38.png'
+import gallery39 from './images/gallery/gallery39.jpg'
+import gallery40 from './images/gallery/gallery40.jpg'
+import gallery41 from './images/gallery/gallery41.png'
+import gallery42 from './images/gallery/gallery42.png'
+import gallery43 from './images/gallery/gallery43.png'
+import gallery44 from './images/gallery/gallery44.png'
+import gallery45 from './images/gallery/gallery45.png'
+import gallery46 from './images/gallery/gallery46.png'
+import gallery47 from './images/gallery/gallery47.png'
+import gallery48 from './images/gallery/gallery48.png'
+import gallery49 from './images/gallery/gallery49.png'
 import close_white from './images/close-white.png'
 import menu from './images/menu.svg'
 import pumps_agriculture from './images/pumps/pumps_agriculture.png'
@@ -171,6 +195,8 @@ export {
     brand11,
     brand12,
     brand13,
+    brand14,
+    brand15,
     cannon1,
     cannon2,
     cannon3,
@@ -227,7 +253,6 @@ export {
     pin,
     send,
     gallery1,
-    gallery2,
     gallery3,
     gallery4,
     gallery5,
@@ -238,6 +263,12 @@ export {
     gallery10,
     gallery11,
     gallery12,
+    gallery13,
+    gallery14,
+    gallery15,
+    gallery16,
+    gallery17,
+    gallery18,
     gallery19,
     gallery20,
     gallery21,
@@ -253,6 +284,22 @@ export {
     gallery31,
     gallery32,
     gallery33,
+    gallery34,
+    gallery35,
+    gallery36,
+    gallery37,
+    gallery38,
+    gallery39,
+    gallery40,
+    gallery41,
+    gallery42,
+    gallery43,
+    gallery44,
+    gallery45,
+    gallery46,
+    gallery47,
+    gallery48,
+    gallery49,
     menu,
     close_white,
     pumps_agriculture,

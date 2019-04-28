@@ -13,9 +13,9 @@ let products = () => (
         <Title>Productos</Title>
         <Pivots/>
         <GuideOptions/>
+        <Pieces/>
         <SystemOptions/>
         <Cannons/>
-        <Pieces/>
         <Pumps/>
     </div>
 )

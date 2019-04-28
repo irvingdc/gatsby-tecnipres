@@ -3,13 +3,15 @@
 	header("Access-Control-Allow-Headers: Content-Type");
 	require_once('./mail/class.phpmailer.php');
 		
-	if(!isset($_POST['email'])) die("Forbidden.");
+	$data = json_decode(file_get_contents('php://input'), true);
 
-	$subject = 'Mensaje en sitio web de '.$_POST['email'];
-	$messageText =	'Nombre: '.$_POST['name'].'<br>'.
-					'Telefono: '.$_POST['phone'].'<br>'.
-					'Correo: <a href="mailto:'.$_POST['email'].'">'.$_POST['email'].'</a><br>'.
-					'Mensaje: '.$_POST['message'].'<br>';
+	if(!isset($data['email'])) die("Forbidden.");
+
+	$subject = 'Mensaje en sitio web de '.$data['email'];
+	$messageText =	'Nombre: '.$data['name'].'<br>'.
+					'Telefono: '.$data['phone'].'<br>'.
+					'Correo: <a href="mailto:'.$data['email'].'">'.$data['email'].'</a><br>'.
+					'Mensaje: '.$data['message'].'<br>';
     
     sendMail($messageText, $subject);
     
@@ -23,10 +25,10 @@
 		
 		$mail = new PHPMailer();
 		$mail->CharSet="UTF-8";
-		$mail->AddReplyTo("ventas@tecnipres.com","ventas@tecnipres.com");
-		$mail->SetFrom('ventas@tecnipres.com', "ventas@tecnipres.com");
-		$mail->AddBCC("ferbuenob@gmail.com" , "Fernando Bueno");
-		$mail->AddAddress("ventas@tecnipres.com", "ventas@tecnipres.com");
+		$mail->AddReplyTo("ventas@tecnipres.com","Ventas");
+		$mail->SetFrom('ventas@tecnipres.com', "Ventas");
+		$mail->AddBCC("ventas@tecnipres.com" , "Ventas");
+		$mail->AddAddress("ventas@tecnipres.com", "Ventas");
 		$mail->Subject    = $title;
 		$mail->AltBody    = "To view the message properly, please use an HTML compatible email viewer.";
 		$mail->MsgHTML($body);                                           

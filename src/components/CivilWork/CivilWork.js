@@ -1,39 +1,39 @@
-import React from 'react';
-import classes from './CivilWork.module.css'
-import Title from '../Title/Title'
+import React from "react";
+import classes from "./CivilWork.module.css";
+import Title from "../Title/Title";
 
 let civilWork = () => (
-    <div className={ classes.container }>
-        <div className={ classes.subtitle }>
-            <Title>Obra Civil</Title>
-        </div>
-        <div className={ classes.details }>
-            <h4>Almacenamiento de Agua</h4>
-            <ul>
-                <li>Ollas: Geomembrana y Concreto</li>
-                <li>Jagüey o bordos de tierra</li>
-                <li>Desarenadores</li>
-                <li>Diseño de sifones: Poliducto y tubería</li>
-            </ul>
-            <h4>Cajas de captación</h4>
-            <ul>
-                <li>Presas: Compuertas</li>
-                <li>Estanques</li>
-                <li>Aljibes</li>
-                <li>Aguajes</li>
-                <li>Tanques de Almacenamiento</li>
-            </ul>
-            <h4>Drenaje en terrenos agropecuarios</h4>
-            <ul>
-                <li>Desagües</li>
-                <li>Canales: Compuertas</li>
-                <li>Drenes subterráneos</li>
-            </ul>
-            <h4>Bordos y canales de derivación de escurrimientos</h4>
-            <ul>
-                <li>Bordos conductores</li>
-            </ul>
-        </div>
+  <div className={classes.container}>
+    <div className={classes.subtitle}>
+      <Title>Obra Civil</Title>
     </div>
-)
+    <div className={classes.details}>
+      <div>
+        <h4>ALMACENAMIENTO DE AGUA</h4>
+        <div>Ollas: Geomembrana y Concreto</div>
+        <div>Jagüey o bordos de tierra</div>
+        <div>Desarenadores</div>
+        <div>Diseño de sifones: Poliducto y tubería</div>
+      </div>
+      <div>
+        <h4>CAJAS DE CAPTACIÓN</h4>
+        <div>Presas: Compuertas</div>
+        <div>Estanques</div>
+        <div>Aljibes</div>
+        <div>Aguajes</div>
+        <div>Tanques de Almacenamiento</div>
+      </div>
+      <div>
+        <h4>DRENAJE EN TERRENOS AGROPECUARIOS</h4>
+        <div>Desagües</div>
+        <div>Canales: Compuertas</div>
+        <div>Drenes subterráneos</div>
+      </div>
+      <div>
+        <h4>BORDOS Y CANALES DE DERIVACIÓN DE ESCURRIMIENTOS</h4>
+        <div>Bordos conductores</div>
+      </div>
+    </div>
+  </div>
+);
 export default civilWork;

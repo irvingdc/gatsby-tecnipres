@@ -145,18 +145,11 @@ let pumps = () => {
                 Cornell comenzó a fabricar <b>bombas</b> para la <b>agricultura</b> cuando la empresa se lanzó en 1946. Desde entonces, los ingenieros de Cornell han continuado realizando mejoras en el diseño y la función de las bombas. 
                 <br/><br/>
                 Características únicas de <b>Cornell</b> bombas, como <b>Cycloseal</b>, <b>Run-Dry ®</b>, y <b>Redi-Prime ®</b>, permiten que las bombas Cornell para manejar las aplicaciones más exigentes. Estas características, junto con eficiencias de hasta el 89%, son la razón por la que Cornell se considera el punto de referencia en bombas agrícolas.
-                <br/><br/>
-                Con una vasta red de distribuidores y almacenes de almacenamiento, Cornell está listo para ayudar a nuestros clientes en cualquier momento.
-                <br/><br/>
-                Las bombas agrícolas de Cornell cuentan con el bastidor de rodamiento Cornell. Busque la apariencia distintiva del marco angular y musculoso, para saber que es una bomba Cornell de alta calidad.
             </PumpDetails>
             <PumpDetails img={ pumps_industrial } title="Industrial" align="left">
                 Las bombas de líquido claro y de suspensión de Cornell proporcionan la confiabilidad y la capacidad de intercambio exigidas por la industria. 
                 <br/><br/>
-                Cornell ofrece una multitud de bombas que pueden adaptarse a los sistemas existentes. También trabajaremos con usted para crear un sistema personalizado que satisfaga sus necesidades. 
-                <br/><br/>
-                Cornell es eficiente por diseño, para la industria.
-                En las bombas industriales, las características únicas de diseño rectangular expulsado del marco de Cornell le permitirán saber que es la bomba de Cornell.
+                Cornell ofrece una multitud de bombas que pueden adaptarse a los sistemas existentes. También trabajaremos con usted para crear un sistema personalizado que satisfaga sus necesidades.
             </PumpDetails>
             <PumpDetails img={ pumps_municipal } title="Municipal" align="right">
                 Las aplicaciones municipales para aguas claras, aguas residuales y aguas grises se encuentran con la garantía de las bombas Cornell. 
@@ -170,7 +163,7 @@ let pumps = () => {
                 <br/><br/>
                 Además de las bombas de la serie P y PP, muchas otras bombas Cornell se utilizan en la industria alimentaria para aplicaciones como aguas residuales, aceite caliente y líquidos transparentes.
                 <br/><br/>
-                Las bombas Food Process utilizan bastidores de cojinetes con un diseño reconocible al instante que incorpora superficies de montaje en lugar de patas de montaje, lo que le permite saber que es un bastidor de bomba de Cornell de calidad que admite una bomba de Cornell robusta de un solo vistazo.
+                Las bombas Food Process utilizan bastidores de cojinetes con un diseño reconocible al instante que incorpora superficies de montaje en lugar de patas de montaje, lo que le permite saber que es un bastidor de bomba de Cornell de calidad.
             </PumpDetails>
             <div className={ classes.list }>
                 {
