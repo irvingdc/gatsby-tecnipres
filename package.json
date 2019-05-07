@@ -9,8 +9,12 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
+    "antd": "^3.17.0",
     "axios": "^0.18.0",
-    "gatsby": "^2.0.33",
+    "gatsby": "^2.4.2",
+    "gatsby-plugin-antd": "^2.0.2",
+    "gatsby-plugin-less": "^2.0.12",
+    "less": "^3.9.0",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
